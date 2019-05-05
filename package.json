@@ -1,6 +1,6 @@
 {
   "name": "jsfinder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Search for the specified string outside the comment `//` or `/* */` in the js file",
   "author": "somewind <neverstopsteps@gmail.com> (https://github.com/somewind)",
