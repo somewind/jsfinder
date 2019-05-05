@@ -1,0 +1,50 @@
+{
+  "name": "jsfinder",
+  "version": "1.0.1",
+  "license": "MIT",
+  "description": "Search for the specified string outside the comment `//` or `/* */` in the js file",
+  "author": "somewind <neverstopsteps@gmail.com> (https://github.com/somewind)",
+  "main": "lib/index.js",
+  "bin": {
+    "jsfinder": "./lib/index.js"
+  },
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "devDependencies": {
+    "commitizen": "3.0.2",
+    "conventional-changelog-cli": "^2.0.12",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "peerDependencies": {},
+  "keywords": [
+    "find",
+    "js",
+    "words",
+    "jsfinder"
+  ],
+  "bugs": "https://github.com/somewind/jsfinder/issues",
+  "homepage": "https://github.com/somewind/jsfinder",
+  "repository": "https://github.com/somewind/jsfinder.git",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
